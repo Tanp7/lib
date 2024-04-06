@@ -16,7 +16,7 @@ python book_management_sys.py runserver
 管理员用户可使用一切功能，账号、密码登陆后，进行日常业务操作。
 
 # 管理员功能使用说明
-登录页面:  账号：201801  密码：123456，后续页面增加路由保护功能，以下为登录页面演示：
+以下为登录页面演示：
 ![image](https://github.com/lyric777/Book-Management-System/blob/master/gif/login.gif)
 
 在主菜单栏点击查询图书信息，选择查询方式（书名，ISBN，作者，类别），并且输入查询内容，进行模糊搜索，渲染表格显示搜索结果；若无查询结果，则提示无结果：
