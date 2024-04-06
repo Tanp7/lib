@@ -1,0 +1,7 @@
+.idea/
+.git/
+.DS_Store
+__pycache__
+Pipfile
+Pipfile.lock
+venv/

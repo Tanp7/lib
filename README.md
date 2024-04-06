@@ -1,18 +1,12 @@
-# Book-Management-System
+# 图书馆管理系统
 Flask + LayUI + SQLite
-
-
-## 2020.8.6：请淘宝店家不要再盗用我的源码去卖钱了！
-
-## 2019.8.6：2.0版本：https://github.com/lyric777/Book-Management-System-V2 ，使用蓝本，对项目文档结构进行了重组，没有任何功能或页面上的修改
-
-## 2019.4.27：过段时间有空改成用蓝图写，堆一起写太乱了，顺便也重新理解一下蓝图
 
 使用说明+功能演示：
 
-下载整个程序包，确保系统有python3环境，打开cmd，输入命令（替换成本机的工程目录地址）：
-python F:\book_management_sys\book_management_sys.py runserver
 
+```python
+python book_management_sys.py runserver
+```
 浏览器输入  http://127.0.0.1:5000/  进入系统
 
 系统分两类用户：普通读者用户，管理员用户。
@@ -20,8 +14,6 @@ python F:\book_management_sys\book_management_sys.py runserver
 普通读者用户可以查看图书信息和查看借阅记录，在登录页顶端导航栏切换功能，不用输入用户名、密码。
 
 管理员用户可使用一切功能，账号、密码登陆后，进行日常业务操作。
-
-测试数据： 图书信息书名可填写“学习”“机器”，类别可填写“计算机”等；学生借阅卡可填写：16000001,16000002,16000003（该卡无借阅记录）；
 
 # 管理员功能使用说明
 登录页面:  账号：201801  密码：123456，后续页面增加路由保护功能，以下为登录页面演示：
@@ -48,7 +40,3 @@ python F:\book_management_sys\book_management_sys.py runserver
 # 普通用户功能使用说明
 在登录页面顶端导航栏上选择，查询图书信息或者查询学生信息，页面及使用与管理员功能说明一致：
 ![image](https://github.com/lyric777/Book-Management-System/blob/master/gif/common.gif)
-
-# lib
-# lib
-# lib
